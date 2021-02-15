@@ -1,0 +1,81 @@
+body {
+    background-color: dodgerblue;
+    border: 0;
+    margin: 0;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    display: inline;
+
+}
+
+
+/*GIF van: https://tenor.com/view/dance-rick-astley-meme-groove-gif-16950466*/
+.fullrickroll {
+    background-image: url(../images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    border: 0;
+    margin: 0;
+
+}
+
+.notrickrolled{
+    opacity: 0;
+}
+
+.rickrolled{
+    animation: blinker 2s linear infinite;
+    color: white;
+    font-size: 10em;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0
+    }
+}
+
+.justroll{
+    opacity: 0;
+}
+
+.rick {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+
+}
+
+.h2a,
+.h2b {
+    display: inline;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
